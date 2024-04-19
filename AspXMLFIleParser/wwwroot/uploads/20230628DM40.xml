@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataCollectionPlans xmlns="urn:semi-org:xsd.E134-1.V1105.DCM">
+	<DataCollectionPlan id="04a34e2f-b0b8-4746-aea2-2bd11f8b64dd" intervalInMinutes="0" isPersistent="false" name="ImageDone">
+		<Description>ImageDone</Description>
+		<EventRequest eventId="LotProcessing:ImageDone" sourceId="Equipment/Exposure">
+			<ParameterRequest parameterName="LotId" sourceId="Equipment/Exposure"/>
+			<ParameterRequest parameterName="Ppid" sourceId="Equipment/Exposure"/>
+			<ParameterRequest parameterName="SubstId" sourceId="Equipment"/>
+			<ParameterRequest parameterName="WfrSequenceNo" sourceId="Equipment/Exposure"/>
+			<ParameterRequest parameterName="ChuckId" sourceId="Equipment/Exposure"/>
+			<ParameterRequest parameterName="LotSequenceNo" sourceId="Equipment/Exposure"/>
+			<ParameterRequest parameterName="LayerId" sourceId="Equipment/Exposure"/>
+			<ParameterRequest parameterName="ExposureCellXLst" sourceId="Equipment/Exposure"/>
+			<ParameterRequest parameterName="ExposureCellYLst" sourceId="Equipment/Exposure"/>
+			<ParameterRequest parameterName="ExposurePositionXLst" sourceId="Equipment/Exposure"/>
+			<ParameterRequest parameterName="ExposurePositionYLst" sourceId="Equipment/Exposure"/>
+		</EventRequest>
+	</DataCollectionPlan>
+	<DataCollectionPlan id="08c785f2-c1c7-49e7-9396-69cfb6319018" intervalInMinutes="0" isPersistent="false" name="WaferStarted">
+		<Description>WaferStarted</Description>
+		<EventRequest eventId="LotProcessing:WaferStarted" sourceId="Equipment/Exposure">
+			<ParameterRequest parameterName="LotId" sourceId="Equipment/Exposure"/>
+			<ParameterRequest parameterName="Ppid" sourceId="Equipment/Exposure"/>
+			<ParameterRequest parameterName="SubstId" sourceId="Equipment"/>
+			<ParameterRequest parameterName="WfrSequenceNo" sourceId="Equipment/Exposure"/>
+			<ParameterRequest parameterName="ChuckId" sourceId="Equipment/Exposure"/>
+			<ParameterRequest parameterName="LotSequenceNo" sourceId="Equipment/Exposure"/>
+			<ParameterRequest parameterName="LayerId" sourceId="Equipment/Exposure"/>
+		</EventRequest>
+	</DataCollectionPlan>
+	<DataCollectionPlan id="1583d5c0-7424-4b68-bfe9-5a5f56ec805f" intervalInMinutes="0" isPersistent="false" name="LotEndStopped">
+		<Description>LotEndStopped</Description>
+		<EventRequest eventId="E40-1106:PJSM:17:Stopping-Stopped" sourceId="Equipment/Exposure">
+			<ParameterRequest parameterName="LotId" sourceId="Equipment/Exposure"/>
+			<ParameterRequest parameterName="Ppid" sourceId="Equipment/Exposure"/>
+			<ParameterRequest parameterName="LayerId" sourceId="Equipment/Exposure"/>
+			<ParameterRequest parameterName="LotSequenceNo" sourceId="Equipment/Exposure"/>
+			<ParameterRequest parameterName="LotDoneTimestamp" sourceId="Equipment/Exposure"/>
+			<ParameterRequest parameterName="WfrAccepted" sourceId="Equipment/Exposure"/>
+			<ParameterRequest parameterName="WfrDone" sourceId="Equipment/Exposure"/>
+			<ParameterRequest parameterName="WfrRejected" sourceId="Equipment/Exposure"/>
+		</EventRequest>
+	</DataCollectionPlan>
+	<DataCollectionPlan id="57d9b642-c580-49c7-ac04-cd9cedbe433a" intervalInMinutes="0" isPersistent="false" name="LotDone">
+		<Description>LotDone</Description>
+		<EventRequest eventId="E40-1106:PJSM:6:Processing-FullyProcessed" sourceId="Equipment/Exposure">
+			<ParameterRequest parameterName="LotId" sourceId="Equipment/Exposure"/>
+			<ParameterRequest parameterName="Ppid" sourceId="Equipment/Exposure"/>
+			<ParameterRequest parameterName="LayerId" sourceId="Equipment/Exposure"/>
+			<ParameterRequest parameterName="LotSequenceNo" sourceId="Equipment/Exposure"/>
+			<ParameterRequest parameterName="LotDoneTimestamp" sourceId="Equipment/Exposure"/>
+			<ParameterRequest parameterName="WfrAccepted" sourceId="Equipment/Exposure"/>
+			<ParameterRequest parameterName="WfrDone" sourceId="Equipment/Exposure"/>
+			<ParameterRequest parameterName="WfrRejected" sourceId="Equipment/Exposure"/>
+		</EventRequest>
+	</DataCollectionPlan>
+	<DataCollectionPlan id="66efda97-f3f8-4904-8b5d-4df7216472e1" intervalInMinutes="0" isPersistent="false" name="LotStarted">
+		<Description>LotStarted</Description>
+		<EventRequest eventId="E40-1106:PJSM:4:PreProcessing-Processing" sourceId="Equipment/Exposure">
+			<ParameterRequest parameterName="LotId" sourceId="Equipment/Exposure"/>
+			<ParameterRequest parameterName="Ppid" sourceId="Equipment/Exposure"/>
+			<ParameterRequest parameterName="LayerId" sourceId="Equipment/Exposure"/>
+			<ParameterRequest parameterName="LotSequenceNo" sourceId="Equipment/Exposure"/>
+			<ParameterRequest parameterName="LotStartedTimestamp" sourceId="Equipment/Exposure"/>
+		</EventRequest>
+	</DataCollectionPlan>
+	<DataCollectionPlan id="964c1119-d717-4956-ad27-b9fbbbad419d" intervalInMinutes="0" isPersistent="false" name="ImageStarted">
+		<Description>ImageStarted</Description>
+		<EventRequest eventId="LotProcessing:ImageStarted" sourceId="Equipment/Exposure">
+			<ParameterRequest parameterName="LotId" sourceId="Equipment/Exposure"/>
+			<ParameterRequest parameterName="Ppid" sourceId="Equipment/Exposure"/>
+			<ParameterRequest parameterName="SubstId" sourceId="Equipment"/>
+			<ParameterRequest parameterName="WfrSequenceNo" sourceId="Equipment/Exposure"/>
+			<ParameterRequest parameterName="ChuckId" sourceId="Equipment/Exposure"/>
+			<ParameterRequest parameterName="LotSequenceNo" sourceId="Equipment/Exposure"/>
+			<ParameterRequest parameterName="LayerId" sourceId="Equipment/Exposure"/>
+		</EventRequest>
+	</DataCollectionPlan>
+	<DataCollectionPlan id="ba177d87-63bc-46e5-a7df-65f9e722f6f6" intervalInMinutes="0" isPersistent="false" name="WaferDone">
+		<Description>WaferDone</Description>
+		<EventRequest eventId="LotProcessing:WaferDone" sourceId="Equipment/Exposure">
+			<ParameterRequest parameterName="LotId" sourceId="Equipment/Exposure"/>
+			<ParameterRequest parameterName="Ppid" sourceId="Equipment/Exposure"/>
+			<ParameterRequest parameterName="SubstId" sourceId="Equipment"/>
+			<ParameterRequest parameterName="WfrSequenceNo" sourceId="Equipment/Exposure"/>
+			<ParameterRequest parameterName="ChuckId" sourceId="Equipment/Exposure"/>
+			<ParameterRequest parameterName="LotSequenceNo" sourceId="Equipment/Exposure"/>
+			<ParameterRequest parameterName="LayerId" sourceId="Equipment/Exposure"/>
+			<ParameterRequest parameterName="WfrResult" sourceId="Equipment/Exposure"/>
+		</EventRequest>
+	</DataCollectionPlan>
+	<DataCollectionPlan id="d238ee1f-5737-4cda-8df7-2b9a8416b974" intervalInMinutes="0" isPersistent="false" name="LotEndAborted">
+		<Description>LotEndAborted</Description>
+		<EventRequest eventId="E40-1106:PJSM:13:Processing-Aborting" sourceId="Equipment/Exposure">
+			<ParameterRequest parameterName="LotId" sourceId="Equipment/Exposure"/>
+		</EventRequest>
+	</DataCollectionPlan>
+</DataCollectionPlans>
+
